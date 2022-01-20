@@ -1,3 +1,6 @@
+# A script to scrape data from https://www.theiconic.com.au
+# Noah Rubin - January 2022
+
 import requests
 import pandas as pd
 from bs4 import BeautifulSoup
