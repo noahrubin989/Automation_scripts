@@ -37,7 +37,7 @@ def scrape_words(url, num_words=1000, start_letters='all'):
 
 
 def write_to_txt(data, filename):
-    """Takes all the data and writes it to a text file. you can choose how many word definitions to write to the file"""
+    """Takes all the data and writes it to a text file. You can choose how many word definitions to write to the file"""
 
     with open(filename, 'w') as f:
         for word, definition, sentence in data:
