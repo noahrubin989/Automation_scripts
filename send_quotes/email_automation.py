@@ -1,3 +1,6 @@
+# A script to send a random quote to somebody at any particular time
+# Noah Rubin ~ 2022
+
 import data_collection
 import random
 import time

@@ -1,3 +1,6 @@
+# A quick and easy web scraping script to scrape quotes from azquotes.com
+# Noah Rubin ~ 2022
+
 import requests
 from bs4 import BeautifulSoup
 
