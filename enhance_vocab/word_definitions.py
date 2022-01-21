@@ -10,7 +10,8 @@ def scrape_words(url, num_words=1000, start_letters='all'):
     """
     Scrapes words from https://www.vocabulary.com/lists/52473.
     You can control how many words (between 1 and 1000) that your wish to scrape
-    You can also specify particular letters the word must start with (if you wish)
+    You can also specify a list of particular letters (in uppercase) the word must start with (if you wish)
+    - e.g. start_letters=['A', 'B'] for words beginning with 'A' and 'B'
     """
     assert 0 < num_words <= 1000, 'Number of words must be between 1 and 1000'
 
@@ -37,7 +38,7 @@ def scrape_words(url, num_words=1000, start_letters='all'):
 
 
 def write_to_txt(data, filename):
-    """Takes all the data and writes it to a text file. You can choose how many word definitions to write to the file"""
+    """Takes all the data and writes it to a text file"""
 
     with open(filename, 'w') as f:
         for word, definition, sentence in data:
