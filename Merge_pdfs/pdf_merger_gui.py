@@ -1,3 +1,7 @@
+# A GUI version of pdf_merger.py
+# Used some of the functionality from pdf_merger.py but the majority of this program is different
+# Noah Rubin - 2022
+
 import streamlit as st
 from PyPDF2 import PdfFileMerger
 
