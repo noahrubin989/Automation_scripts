@@ -57,6 +57,6 @@ def create_merged_pdf(absolute_path, result_name, exclusion_files):
 # This directory has ['SVM Part 1.pdf', 'SVM Part 2.pdf', 'SVM Part 3.pdf', 'SVM Part 4.pdf', 'SVM Part 5.pdf' etc.]
 # ...which I will merge into a big pdf called 'Support_Vector_Machines.pdf'
 
-# create_merged_pdf('/Users/noahrubin/Desktop/DS + Quant/ML/SVM',
-#                   'Support_Vector_Machines.pdf',
-#                   exclusion_files=None)
+create_merged_pdf('/Users/noahrubin/Desktop/test/',
+                  'MATH2871 NOTES.pdf',
+                  exclusion_files=None)
